@@ -11,10 +11,10 @@ L'URL de mise à jour est intégrée au firmware. Pour un appareil qui tourne en
 
 | Appareil | Commande console |
 |---|---|
-| Centrale ESP32 | `OtaUrl https://github.com/rkroman-86/ac-zone-control-firmware/releases/download/centrale/tasmota32-centrale.bin` |
+| Centrale ESP32 | `OtaUrl https://raw.githubusercontent.com/rkroman-86/ac-zone-control-firmware/main/centrale/tasmota32-centrale.bin` |
 | Télécommandes | à venir |
 
-Chaque appareil a sa propre release à tag fixe (`centrale`, plus tard `telecommande`) : le lien reste le même, le fichier est remplacé à chaque nouvelle version. L'historique des versions est dans [`centrale/CHANGELOG.md`](centrale/CHANGELOG.md).
+Chaque appareil a un chemin fixe sur la branche `main` : le lien reste le même, le fichier est remplacé à chaque nouvelle version (les versions précédentes restent dans l'historique git). Notes de version : [`centrale/CHANGELOG.md`](centrale/CHANGELOG.md).
 
 ## Contenu
 
